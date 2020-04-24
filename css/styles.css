@@ -1,0 +1,229 @@
+/*_______________________________________________________________________________ General________________________________________________________________________________________- */
+#features, #testimonials, #press, #footer, #pricing, #cta {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Spartan, sans-serif;
+}
+
+h2 {
+  font-size: 2.8rem;
+  line-height: 2;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+a {
+  margin: 0 22px;
+  font-size: 1.2em;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.container-fluid {
+  padding: 5% 10%;
+}
+
+/* ___________________________________________________________________________Navigation bar_______________________________________________________________________ */
+.nav-link {
+  margin: 0 30px;
+  text-decoration: none;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.navbar {
+  padding: 20px 20px 30px;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  margin-left: 0;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,123,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* _________________________________________________________________________Title section_______________________________________________________________________________ */
+#title {
+  background-image: linear-gradient(#fafafa, #0077c0);
+  overflow: hidden;
+}
+
+#title h1 {
+  font-weight: 900;
+  color: white;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#title img {
+  width: 500px;
+  transform: rotate(20deg);
+  padding-top: 90px;
+  position: absolute;
+  left: 90px;
+}
+
+.fas {
+  color: #0077c0;
+  font-size: 4.3rem;
+  margin-bottom: 35px;
+  margin-top: 30px;
+}
+
+.fas:hover {
+  opacity: 0.5;
+}
+
+#title .row {
+  padding: 20px 40px 50px 20px;
+}
+
+#title .btn {
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
+
+/* ____________________________________________________________________Features section ___________________________________________________________________________*/
+#features {
+  padding: 7% 0;
+  background-color: #FFF;
+  position: relative;
+  z-index: 1;
+}
+
+#features .p {
+  font-size: 1.2rem;
+  color: #007bff;
+  display: inline-block;
+}
+
+#features .col-lg-4 {
+  padding: 0 28px;
+}
+
+/* Testimonials section */
+#testimonials {
+  color: #fafafa;
+}
+
+#testi-press {
+  background-image: linear-gradient(#0077c0, #cdd5e0);
+}
+
+#press {
+  padding-bottom: 20px;
+}
+
+#testimonials img {
+  width: 76px;
+  height: 76px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials em {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3em;
+}
+
+#press img {
+  margin: 20px 60px 80px 60px;
+}
+
+.press-img-adjust {
+  width: 11%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*______________________________________________________________________________ Pricing__________________________________________________________________________________________ */
+#pricing {
+  padding: 6% 7%;
+}
+
+#pricing .row {
+  padding-top: 35px;
+}
+
+#pricing .card {
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+#pricing .btn {
+  margin-top: 50px;
+}
+
+#pricing, #cta .btn {
+  margin: 30px 2px 8px 2px;
+}
+
+/* ________________________________________________________________________________Footer and Call to Action_____________________________________________________________________ */
+#footer {
+  background-color: #0077c0;
+  padding: 2% 3% 2% 3%;
+}
+
+#cta {
+  background-image: linear-gradient(#cdd5e0, #0077c0);
+  padding: 4% 7% 0 7%;
+}
+
+#footer i {
+  font-size: 1.7em;
+  color: #000000;
+  margin: 5px 15px;
+}
+
+
+
+
+/*______________________________________________________________________________-- Media queries ______________________________________________________________________________________________________________________________________---*/
+
+@media (max-width: 1086px) {
+
+  #title {
+    text-align: center;
+  }
+
+  #title img{
+    position: static;
+    transform: rotate(0);
+    width: 400px;
+    bottom: 30px;
+  }
+
+  a{
+    margin: 0 30px 0 0;
+  }
+
+  .nav-item {
+    margin: 0;
+    text-align: left;
+  }
+
+
+}

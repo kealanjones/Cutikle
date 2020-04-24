@@ -183,19 +183,19 @@ a:hover {
 
 /* ________________________________________________________________________________Footer and Call to Action_____________________________________________________________________ */
 #footer {
-  background-color: #0077c0;
+  background-color: #FFF;
   padding: 2% 3% 2% 3%;
 }
 
 #cta {
   background-image: linear-gradient(#cdd5e0, #0077c0);
-  padding: 4% 7% 0 7%;
+  padding: 4% 7% 2% 7%;
 }
 
 #footer i {
   font-size: 1.7em;
   color: #000000;
-  margin: 5px 15px;
+  margin: 10px 15px;
 }
 
 
